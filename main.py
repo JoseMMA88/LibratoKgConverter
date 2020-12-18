@@ -8,7 +8,7 @@ def convert():
 # Window Setup
 window = Tk()
 window.title("Libra to Kg Converter")
-window.minsize(width=500, height=500)
+window.config(padx=20, pady=20)
 
 
 # Setup labels
@@ -25,7 +25,7 @@ label_4 = Label(text="0")
 label_4.grid(column=1, row=1)
 
 # Setup Textinput
-input = Entry(width=10)
+input = Entry(width=7)
 input.grid(column=1, row=0)
 
 # Setup Button
